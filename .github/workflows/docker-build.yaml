@@ -42,5 +42,5 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: bino2/python-helloworld:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-helloworld:latest
 
